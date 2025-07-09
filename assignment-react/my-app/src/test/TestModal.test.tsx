@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import MuiBasicModal from './TestModal';
+import MuiBasicModal from '../components/TestModal';
 
 describe('MuiBasicModal', () => {
   const title = 'Custom MUI Modal Title';

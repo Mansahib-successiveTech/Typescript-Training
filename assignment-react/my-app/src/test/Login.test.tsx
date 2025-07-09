@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Login from './Login';
+import Login from '../components/Login';
 import { AuthContextProvider } from '../context/AuthContext';
 
 const renderWithProvider = () =>

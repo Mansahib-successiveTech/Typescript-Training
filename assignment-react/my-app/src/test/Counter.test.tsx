@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Count from "./Counter";
+import Count from "../components/Counter";
 
 describe("Count component (user-event)", () => {
   it("should render with initial count as 0", () => {

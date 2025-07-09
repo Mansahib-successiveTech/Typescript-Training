@@ -1,7 +1,7 @@
 // UserProfile.test.js
 
 import { render, screen } from "@testing-library/react";
-import UserProfile from "./UserProfile";
+import UserProfile from "../components/UserProfile";
 
 describe("UserProfile Component", () => {
   const userData = {
