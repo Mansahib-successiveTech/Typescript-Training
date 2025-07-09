@@ -1,0 +1,21 @@
+import { LanguageSwitcher } from "../../../components"
+
+
+const Translate=()=>{
+return(
+    <>
+    <p>
+    10.Develop a language switcher application using the useContext hook.
+Create a context to manage the current language (e.g., English or Spanish).
+Provide buttons to switch between languages.
+Use the useContext hook to access the current language value.
+Display different language versions of the applications content.
+
+
+    </p>
+<LanguageSwitcher />
+    </>
+)
+
+}
+export default Translate
